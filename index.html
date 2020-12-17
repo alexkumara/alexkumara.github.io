@@ -1,123 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
+<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script class="img-fluid mx-auto d-block" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script class="img-fluid mx-auto d-block" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<style>
-    .carousel-inner img {
-      width: 100%;
-      height: 50%;
-      max-width: 100%;
-    }
-    .fakeimg{
-      height: 200px;
-      background: #aaa;
-    }
-    </style>
-<title>Tugas-16</title>
-
+<script class="img-fluid mx-auto d-block" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Treeland Nursery</title>
 </head>
-<body>
-  <div class="container">
-    <header class="bg-success jumbotron text-center" style="margin-bottom:0 ">
-      <h1>Ini website Alex</h1>
-      <p>Universitas Advent Indonesia</p> 
-  </header>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Tentang
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Visi Misi</a>
-                <a class="dropdown-item" href="#">Sejarah</a>
-                <a class="dropdown-item" href="#">Sambutan Dekan</a>
-              </div>
-              
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Akademik
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Prodi Teknik Informatika</a>
-                <a class="dropdown-item" href="#">Prodi Sistem Informasi</a>
-                <a class="dropdown-item" href="#">Persyaratan</a>
-              </div>
+<body style="background-color: #ccc;">
+    <header id="header">
+            <div class="container pt-3">
+                <a href="https://www.tree-land.com/">
+                    <img class="logo" class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2017/09/logo-3.png" alt="tree-land-logo">
+                </a>
+                <div class="contact">
+                <a href="tel:972-372-4737" class="call-center">972-372-4737</a>
+                    <ul class="socmed">
+                            <li><a href="https://www.facebook.com/treelandgunter/" class="fa fa-facebook"></a></li>
+                            <li><a href="https://twitter.com/treelandgunter" class="fa fa-twitter"></a></li>
+                            <li><a href="https://www.pinterest.com/treelandgunter/" class="fa fa-pinterest"></a></li>
+                            <li><a href="https://www.instagram.com/sugar.and.sap/" class="fa fa-instagram"></a></li>
+                            <li><a href="https://www.youtube.com/c/TreelandNurseryGunter" class="fa fa-youtube"></a></li>
+                            <li><a href="http://www.houzz.com/pro/treelandgunter/" class="fa fa-dribbble"></a></li>
+                        </ul>
+                    </div>
+                    <div class="container navbar">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">home</a>
+                            </li>
+                            <li class="nav-item">
+                              <div class="dropdown">
+                                <a class="dropbtn">about</a>
+                                <div class="dropdown-content">
+                                  <a href="biodata.html">about</a>
+                                  <a href="#">our story</a>
+                                  <a href="#">testimonial</a>
+                                  <a href="#">meet the team</a>
+                                </div>
+                              </div> 
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">inventory & pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">tree finder</a>
+                            </li>
+                              <li class="nav-item">
+                                <div class="dropdown">
+                                  <a href="#" class="dropbtn">gallery</a>
+                                <div class="dropdown-content">
+                                  <a href="#">gallery</a>
+                                  <a href="#">privacy screens</a>
+                                  <a href="#">evergreen trees</a>
+                                  <a href="#">deciduous trees</a>
+                                  <a href="#">shade trees</a>
+                                  <a href="#">flowering trees</a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="nav-item">
+                                <div class="dropdown">
+                                  <a class="dropbtn">tree care & guides</a>
+                                  <div class="dropdown-content">
+                                    <a href="#">tree care & guides</a>
+                                    <a href="#">container vs dug</a>
+                                    <a href="#">fertilizer program</a>
+                                    <a href="#">watering guide</a>
+                                  </div>
+                                </div> 
+                              </li>
+                              <li class="nav-item">
+                                <div class="dropdown">
+                                  <a href="#" class="dropbtn">ordering guide</a>
+                                <div class="dropdown-content">
+                                  <a href="#">ordering guide</a>
+                                  <a href="#">shop smart</a>
+                                  <a href="#">delivery range</a>
+                                  <a href="#">benefits of ordering online</a>
+                                  <a href="#">order process</a>
+                                  <a href="#">planting process</a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="contact_us.html">contact</a>
+                              </li>   
+                          </ul>
+                    </div>  
+            </div>   
+    </header>
+    <div class="container">
+      <div class="container pt-3 my-3">
+        <div id="demo" class="carousel slide" data-ride="carousel">
   
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Penelitian
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Minat Penelitian</a>
-                <a class="dropdown-item" href="#">Grup Penelitian</a>
-                <a class="dropdown-item" href="#">Jurnal Teks</a>
-              </div>
-              
-            </li>
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
           </ul>
-    </nav>
-
-    <div class="carousel slide" data-ride="carousel">
-
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://fti.unai.edu/wp-content/uploads/2017/07/Fieldtrip-IT.jpg" alt="Los Angeles">
-        </div>
-        <div class="carousel-item">
-          <img src="https://fti.unai.edu/wp-content/uploads/2017/07/Tugu-UNAI.jpg" alt="Chicago" >
-        </div>
-      </div>
-      
-      <a class=" carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-
-    <div class="container pt-3">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="fakeimg">Fake Image</div>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <div class="fakeimg">Fake Image</div>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <div class="fakeimg">Fake Image</div>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2020/12/Website-Banner-Holiday-Closure-Christmas-2020.jpg" alt="Los Angeles" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2020/12/Gift-Certificates.jpg" alt="Chicago" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2020/11/shop-smart-nov-2020-1024x498.jpg" alt="New York" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2016/05/Treeland-Ads-03.jpg" alt="New York" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2020/11/shop-smart-nov-2020.jpg" alt="New York" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2016/08/Treeland-Ads-06.jpg" alt="New York" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid mx-auto d-block" src="https://www.tree-land.com/wp-content/uploads/2016/08/Treeland-Ads-04.jpg" alt="New York" width="1100" height="500">
+            </div>
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
       </div>
+  
+      <div class="container pt-3 my-3 banner1" >
+        <div class="bannera1 text-center">
+          <div class="bannera2">
+            <h2 class="judul1">
+              <span>WELCOME TO TREELAND NURSERY</span>
+            </h2>
+            <p class="textjudul1">
+              <span>Treeland Nursery has been in operation since 1983 and specializes in the following landscaping services: container tree sales, tree planting and tree removal. Treeland Nursery operates on a 50 acre tree farm north of Dallas, Texas and stocks over 7,000 trees and shrubs, which makes us one of the largest nurseries and tree farms in the Dallas - Fort Worth Metroplex.</span>
+            </p>
+           <div class="bannera2">
+            <h3 class="judul2">
+              <span>TREELAND SERVICE AREAS - DELIVERY RANGE</span>
+            </h3>
+            <p class="textjudul2">
+              <span>ALLEN | ARLINGTON | CARROLLTON | COPPELL | DALLAS | DENTON | FRISCO | FORT WORTH | GARLAND | IRVING | KELLER | LEWISVILLE | MCKINNEY | PLANO | ROCKWALL
+                AND MANY MORE CITIES IN THE DALLAS - FORT WORTH MERTOPLEX.</span>
+            </p>
+              <a href="#" class="linkjudul2">VIEW OUR FULL DELIVERY RANGE</a>
+           </div> 
+          </div>
+        </div>
+      </div>
+
     </div>
-    <footer class="container bg-muted jumbotron text-center" style="margin-bottom:0">
-      <p>Created by Alex Kumara Yudha</p> 
-      <p>© FTI UNAI 2020</p>
-    </footer>
-  </div>
     
-</body>
+    <div class="album py-5">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="card mb-4 box-shadow" style="padding: 20px; background-color: #e5dfd3;">
+              <p class="judulcard">TREE FINDER</p>
+              <img class="card-img-top img-fluid mx-auto d-block" style="width: 180px; " src="https://www.tree-land.com/wp-content/uploads/2016/05/leav-300x208.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text textjudul2">USE OUR SEARCH TOOL TO FIND THE PERFECT TREE FOR YOUR NEEDS</p>
+                <div class="d-flex justify-content-center align-items-center" style="background-color: white; padding: 10px;">
+                  <a href="#" class="judulcard">VIEW GALLERY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card mb-4 box-shadow" style="padding: 20px; background-color: #e5dfd3;">
+              <p class="judulcard">VISIT OUR BLOG</p>
+              <img class="card-img-top img-fluid mx-auto d-block" style="width: 180px; " src="https://www.tree-land.com/wp-content/uploads/2016/05/sis-300x208.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text textjudul2">TIPS, RECIPES, AND A PERSONAL TOUCH<br><br></p>
+                <div class="d-flex justify-content-center align-items-center" style="background-color: white; padding: 10px;">
+                  <a href="#" class="judulcard">COME ON IN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card mb-4 box-shadow" style="padding: 20px; background-color: #e5dfd3;">
+              <p class="judulcard">VIEW OUR GALLERY</p>
+              <img class="card-img-top img-fluid mx-auto d-block" style="width: 180px; " src="https://www.tree-land.com/wp-content/uploads/2016/05/img-300x208.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text textjudul2">INSTALL PICTURES<br><br><br></p>
+                <div class="d-flex justify-content-center align-items-center" style="background-color: white; padding: 10px;">
+                  <a href="#" class="judulcard" style="text-align: center;">VIEW GALLERY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid justify-content-center footer">
+        <div class="row">
+          <div class="col-sm-3">
+            <h3>ORDERING GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-3">
+            <h3>GUIDES & TREE CARE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-3">
+            <h3>TREELAND NURSERY</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-3">
+            <h3>VIEW HOURS OF OPERATION
+              VIEW FARM PICKUP HOURS</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+        </div>
+        <img src="https://www.tree-land.com/wp-content/uploads/2016/06/logo.png" class="img-fluid">
+        <div class="container">
+        <small>Maaf Sir banyak kekurangan karena hanya ini yang saya mampu, mungkin waktunya kurang atau wawasan saya kurang luas, kedepannya saya akan berusaha semaksimal mungkin<br>Created by: Alex Kumara Yudha</small>
+        </div>
+      </div>      
+    </footer>
+  </body>
+  </html>
+    
